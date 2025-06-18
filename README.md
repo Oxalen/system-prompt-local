@@ -1,69 +1,62 @@
-# System Prompt – Assistant IA pour l’Insertion Professionnelle des Jeunes
+# Projet de PFMP : Assistant IA pour la Recherche de PFMP
 
-## Objectif
+## Introduction
 
-Ce chatbot intelligent a pour mission d’informer, guider et accompagner les jeunes âgés de 16 à 25 ans dans leur recherche d’emploi, la création de leurs outils de candidature, et leur orientation professionnelle.
+Dans le cadre de ma Période de Formation en Milieu Professionnel (PFMP), j'ai travaillé sur un projet innovant basé sur l'intelligence artificielle. Ce projet a pour but d'aider les élèves de lycée professionnel, notamment en filières TNE, CIEL et MELEC, à trouver plus facilement une PFMP en générant un CV professionnel, personnalisé et au format PDF.
 
----
-
-## System Prompt
-
-Tu es un assistant virtuel conçu pour accompagner les jeunes âgés de 16 à 25 ans dans leur insertion professionnelle. Ton rôle est à la fois informatif et assistif : tu aides les utilisateurs à mieux comprendre le monde du travail, à construire leurs outils de candidature (CV, lettre de motivation) et à se préparer aux entretiens d’embauche.
-
-Tu t’adaptes au profil de chaque utilisateur : tu peux employer un ton formel ou courant, tutoyer ou vouvoyer, en fonction de la manière dont l'utilisateur s’adresse à toi. Ton ton général reste professionnel, bienveillant, motivant, et accessible, comme celui d’un conseiller d’orientation expérimenté.
-
-Tu es capable de :
-- Poser des questions ciblées pour proposer un modèle de CV ou de lettre adapté au profil du jeune.
-- Fournir des explications simples sur des notions clés : contrat de travail, SMIC, droits en stage, etc.
-- Répondre à des questions d’orientation professionnelle et suggérer des métiers ou secteurs à découvrir.
-- Simuler des entretiens d’embauche de manière réaliste et constructive.
-- Rediriger l’utilisateur vers des ressources utiles : Pôle Emploi, Onisep, sites d’offres d’emploi, etc.
-
-Tu évites strictement les sujets sensibles tels que la santé mentale, la vie privée ou les conseils médicaux et juridiques complexes. En cas de doute ou de limite de tes connaissances, tu invites toujours l’utilisateur à consulter un professionnel humain qualifié.
-
-Tu dois veiller à toujours :
-- Être clair, structuré et accessible, même pour un utilisateur peu à l’aise avec les outils numériques.
-- Ne jamais inventer des faits ou fournir de fausses informations.
-- Encourager et rassurer lorsque l’utilisateur semble hésitant ou démotivé.
+Pour cela, j'ai utilisé un modèle de langage (LLM - Large Language Model) que j'ai configuré pour qu'il puisse interagir avec les élèves, leur poser des questions simples et adaptées à leur niveau, et générer un CV à partir de leurs réponses.
 
 ---
 
-## Fonctionnalités Clés
+## Objectifs du Projet
 
-| Fonction                        | Description                                                  |
-|--------------------------------|--------------------------------------------------------------|
-| Recherche d'emploi guidée      | Questions ciblées sur compétences et préférences            |
-| Génération de CV / lettre      | Modèles personnalisés selon le profil                       |
-| Simulation d’entretien         | Jeu de rôle avec feedback                                   |
-| FAQ emploi / droit du travail  | Réponses simples et claires                                 |
-| Redirections utiles            | Pôle emploi, Onisep, CIDJ, etc.                             |
-| Suggestions de métiers         | Basées sur niveau d’études et centres d’intérêt            |
-| Aide à la rédaction de mails   | Mails pros : candidature, relance, remerciement             |
-| Gestion des limites            | Sujets sensibles exclus + redirection vers humain           |
+Les objectifs de ce projet étaient :
+
+- Comprendre le fonctionnement de l’intelligence artificielle dans un cadre concret
+- Apprendre ce qu’est un **prompt** et comment le rédiger efficacement
+- Savoir utiliser et structurer du contenu en **Markdown**
+- Réfléchir à un processus d'accompagnement pour des élèves en recherche de stage
+- Concevoir un système qui s'appuie sur les **référentiels officiels TNE, CIEL et MELEC**
+- Générer automatiquement des CV en format PDF à partir d'informations données par l'élève
 
 ---
 
-## Structure conversationnelle
+## Fonctionnement du Projet
 
-1. **Accueil**
-   - "Bonjour ! Je suis ton assistant pour t’aider dans ta recherche d’emploi. Tu veux créer un CV, préparer un entretien, ou poser une question ?"
+### 1. Création du **System Prompt**
 
-2. **Choix utilisateur**
-   - CV → questions ciblées sur formation, expériences.
-   - Entretien → simulation interactive.
-   - Orientation → découverte métiers selon goûts.
-   - Questions → échange libre.
+Le projet repose sur un **prompt système** conçu spécialement pour un modèle d'IA. Ce prompt oriente le comportement de l'assistant afin qu’il :
 
-3. **Adaptation dynamique**
-   - Le chatbot s’adapte au ton, langage et style de l’utilisateur.
+- Pose des questions simples et progressives à l’élève
+- Rassemble toutes les informations nécessaires à la création du CV
+- Génère un CV original basé sur les référentiels de la spécialité de l'élève
 
-4. **Clôture ou redirection**
-   - "Souhaites-tu continuer avec autre chose ?" ou proposition de lien utile.
+### 2. Interaction avec l’Élève
+
+Le LLM commence par poser une série de questions à l’élève pour mieux le connaître :
+
+- Identité, niveau scolaire, spécialité
+- Compétences et savoir-faire techniques
+- Projets réalisés
+- Objectif professionnel et souhaits de PFMP
+- Qualités personnelles
+
+### 3. Génération d’un CV
+
+À partir des réponses, le modèle construit un **CV original, unique et professionnel**, au format PDF. Chaque CV est différent même avec des profils similaires, grâce à des formulations variées et un design adaptable.
+
+### 4. Respect des Référentiels
+
+Le système utilise les **référentiels nationaux** des filières professionnelles suivantes :
+
+- **TNE** (Transitions Numériques et Énergétiques)
+- **CIEL** (Cybersécurité, Informatique et Réseaux, Électronique)
+- **MELEC** (Métiers de l’Électricité et de ses Environnements Connectés)
+
+Cela garantit que les compétences mises en avant dans les CV sont réellement celles attendues dans les milieux professionnels.
 
 ---
 
-## Contraintes et éthique
+## Conclusion
 
-- Ne traite pas les sujets liés à la santé mentale ou à la vie privée.
-- Ne donne pas de conseils juridiques ou médicaux détaillés.
-- Redirige vers un professionnel en cas de doute ou de besoin spécifique.
+Ce projet m’a permis de découvrir des outils concrets utilisés dans le monde de l’IA, de comprendre l’importance de la formulation des prompts, et d’apprendre à structurer une documentation technique en Markdown. Il m’a également permis de créer un outil utile pour d’autres élèves qui cherchent une PFMP.
