@@ -4,7 +4,7 @@
 
 Dans le cadre de ma Période de Formation en Milieu Professionnel (PFMP), j'ai travaillé sur un projet innovant basé sur l'intelligence artificielle. Ce projet a pour but d'aider les élèves de lycée professionnel, notamment en filières TNE, CIEL et MELEC, à trouver plus facilement une PFMP en générant un CV professionnel, personnalisé et au format PDF.
 
-Pour cela, j'ai utilisé un modèle de langage (LLM - Large Language Model) que j'ai configuré pour qu'il puisse interagir avec les élèves, leur poser des questions simples et adaptées à leur niveau, et générer un CV à partir de leurs réponses.
+Pour cela, j'ai utilisé un modèle de langage (LLM - Large Language Model) que j'ai configuré pour qu'il puisse interagir avec les élèves, leur poser des questions simples et adaptées à leur niveau, et générer un CV à partir de leurs réponses. J'ai pu travaillé sur ce projet grâce à LM Studios, j'ai utilisé le modèle de gemma 3 12B afin d'essayer mon system prompt.     
 
 ---
 
