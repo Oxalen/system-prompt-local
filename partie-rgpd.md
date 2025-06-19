@@ -9,6 +9,8 @@ Ce document présente les avantages et les précautions à prendre en utilisant 
 
 Il s’appuie sur les recommandations officielles du **Ministère de l’Éducation nationale** publiées dans :  
 _« L’IA en éducation – cadre d’usage » (juin 2025)_.
+[https://www.education.gouv.fr](https://www.education.gouv.fr)  
+  (Référence : « l-ia-en-ducation---cadre-d-usage-227697.pdf »)
 
 ---
 
