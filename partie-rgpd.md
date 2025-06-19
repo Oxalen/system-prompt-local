@@ -20,19 +20,11 @@ L’IA générative peut offrir un accompagnement utile dans plusieurs étapes d
 - Formuler une **candidature spontanée ou une réponse à une offre**
 - Simuler des **entretiens professionnels** pour développer la confiance à l’oral
 
-Dans chacun de ces usages, l’IA locale joue le rôle d’**assistance linguistique et méthodologique**, mais ne remplace jamais le raisonnement, le choix lexical ni l’engagement personnel de l’élève.
-
-### Une intégration dans le cadre des compétences du référentiel
-
-Cette démarche permet de mobiliser des compétences transversales inscrites dans les grilles de formation :
-
-- **Compétence 3** : Communiquer en français à l’écrit
-- **Compétence 5** : Préparer son insertion dans le milieu professionnel
-- **Compétence 6** : Adopter une attitude responsable dans l’usage du numérique
+Dans chacun de ces usages, l’IA locale joue le rôle d’**assistance linguistique et méthodologique**, mais ne remplace jamais le raisonnement, le choix lexical ni l’engagement personnel de l’élève
 
 ---
 
-## 2. Infrastructure locale : maîtrise technique et confidentialité garantie
+## Infrastructure locale : maîtrise technique et confidentialité garantie
 
 ### Une configuration adaptée
 
@@ -53,7 +45,16 @@ L’application **LM Studio** permet de charger et utiliser des modèles de lang
 - Des options de personnalisation (longueur de texte, température, ton)
 - Une exécution rapide, totalement **hors ligne**
 
-Ce choix garantit la **souveraineté numérique** de l’établissement et supprime tout risque de fuite de données.
+Dans le cadre de cette utilisation pédagogique, le modèle sélectionné est **`gemma-3-12b`**, développé par Google DeepMind et distribué en open source. Ce modèle, optimisé pour une exécution locale quantifiée, allie **qualité de génération**, **compacité** et **respect des standards ouverts**.
+
+Le choix de LM Studio associé à `gemma-3-12b` garantit ainsi :
+
+- Une solution **souveraine et maîtrisée**
+- L’absence de **collecte ou d’enregistrement de données sensibles**
+- Une adaptation fine aux besoins du **lycée professionnel**, dans un cadre respectueux du RGPD et du droit scolaire
+
+Cette combinaison permet de disposer d’un environnement sécurisé, transparent et pleinement adapté aux exigences éducatives.
+
 
 ---
 
