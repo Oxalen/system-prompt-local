@@ -47,6 +47,8 @@ L’application **LM Studio** permet de charger et utiliser des modèles de lang
 
 Dans le cadre de cette utilisation pédagogique, le modèle sélectionné est **`gemma-3-12b`**, développé par Google DeepMind et distribué en open source. Ce modèle, optimisé pour une exécution locale quantifiée, allie **qualité de génération**, **compacité** et **respect des standards ouverts**.
 
+Le chargement de ce modèle dans la mémoire vive nécessite environ **1 424,8 Mo (1,39 Go)**, ce qui en fait une solution légère, rapide et parfaitement adaptée à des postes informatiques équipés de 16 à 32 Go de RAM.
+
 Le choix de LM Studio associé à `gemma-3-12b` garantit ainsi :
 
 - Une solution **souveraine et maîtrisée**
@@ -54,7 +56,6 @@ Le choix de LM Studio associé à `gemma-3-12b` garantit ainsi :
 - Une adaptation fine aux besoins du **lycée professionnel**, dans un cadre respectueux du RGPD et du droit scolaire
 
 Cette combinaison permet de disposer d’un environnement sécurisé, transparent et pleinement adapté aux exigences éducatives.
-
 
 ---
 
