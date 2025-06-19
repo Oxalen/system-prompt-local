@@ -1,138 +1,126 @@
-# Utilisation d’une IA locale pour accompagner les lycéens professionnels dans la rédaction de CV et la recherche de PFMP
+# Utiliser un LLM local pour aider les lycéens professionnels à rédiger leur CV et rechercher une PFMP
 
-## Contexte
+## Objectif du document
 
-Dans les lycées professionnels, l'accompagnement à l’insertion des élèves dans le monde professionnel passe notamment par la réalisation de **CV**, de **lettres de motivation** et la **recherche de PFMP** (Périodes de Formation en Milieu Professionnel).  
-L’émergence des intelligences artificielles génératives ouvre de nouvelles perspectives pour soutenir ces démarches, à condition de respecter un cadre rigoureux.
+Ce document a pour but d'expliquer pourquoi et comment utiliser un modèle de langage local (LLM) pour accompagner les lycéens professionnels dans la **rédaction de leur CV** et la **préparation à leur PFMP**, en respectant le cadre réglementaire de l'Éducation nationale.
 
-Ce document présente les avantages et les précautions à prendre en utilisant une **intelligence artificielle locale** (LLM exécuté sur machine) plutôt qu’un **service en ligne** dans ce cadre éducatif.
-
-Il s’appuie sur les recommandations officielles du **Ministère de l’Éducation nationale** publiées dans :  
-_« L’IA en éducation – cadre d’usage » (juin 2025)_.
+Il s’appuie sur le document officiel :  
+**_L’IA en éducation – cadre d’usage_**, Ministère de l’Éducation nationale, juin 2025.
 
 ---
 
-## 1. Un outil local adapté aux besoins du lycée professionnel
+## Pourquoi utiliser un LLM local dans ce contexte ?
 
-### Un usage ciblé : écrire, corriger, améliorer
+L’IA générative peut représenter un levier puissant pour les élèves de la voie professionnelle, souvent confrontés à :
 
-L’intelligence artificielle générative locale peut assister les élèves dans :
+- Des difficultés d'expression écrite
+- Un manque de méthodologie pour rédiger un CV ou une lettre de motivation
+- Une faible connaissance des outils numériques professionnels
 
-- La rédaction ou la relecture de **CV adaptés à leur profil**
-- La formulation de **lettres de motivation personnalisées**
-- La **préparation à des entretiens** en simulant des questions
-- La recherche d’offres de PFMP (si des bases locales sont disponibles)
+Un LLM local peut les accompagner efficacement, **sans tricher, sans automatiser la réflexion**, mais en **soutenant l’expression, la structuration et la valorisation de leur parcours**.
 
-L’assistance IA doit rester **encadrée par l’enseignant**, et encourager l’élève à retravailler, relire, et **s’approprier les contenus** produits.
+---
 
-### Un environnement technique maîtrisé
+## Avantages pédagogiques
 
-Le modèle IA est exécuté localement sur un ordinateur disposant des ressources suivantes :
+### 1. Valorisation des compétences de chaque élève
+
+Le LLM permet de :
+
+- Reformuler proprement un brouillon d’élève
+- Donner des suggestions de formulation adaptées à un contexte professionnel
+- Guider l’élève pour mettre en avant ses qualités et expériences
+
+> **Exemple** : Un élève écrit “j’ai fait un stage en boulangerie”, le LLM peut lui proposer :  
+> _« Durant ma PFMP en boulangerie artisanale, j’ai appris à préparer la pâte, gérer la cuisson et respecter les normes d’hygiène. »_
+
+---
+
+### 2. Autonomisation dans la recherche de PFMP
+
+Le LLM peut simuler :
+
+- Des réponses à des offres de stage
+- Des mails de contact pour démarcher une entreprise
+- Des réponses à des questions courantes en entretien
+
+Ces outils donnent confiance aux élèves, qui peuvent ensuite **s’approprier** les contenus, les corriger, les personnaliser.
+
+---
+
+## Respect du cadre réglementaire
+
+### 1. Données personnelles : protection garantie
+
+Selon le cadre d’usage de l’IA en éducation (2025) :
+
+> *« Aucun élève ne doit créer de compte personnel sur une IA en ligne. Aucune donnée personnelle ne doit être saisie. »*  
+> — Cadre d’usage, pages 8 et 12
+
+→ Le LLM utilisé doit être **local**, installé sur une machine de l’établissement, **sans connexion à un serveur externe**. Ainsi, **aucune information** sur l’élève, son nom, ses coordonnées ou son entreprise d’accueil ne sort de l’établissement.
+
+---
+
+### 2. Équité et encadrement pédagogique
+
+> *« L’usage d’une IA générative pour réaliser un devoir scolaire, sans travail personnel d’appropriation, constitue une fraude. »*  
+> — Cadre d’usage, p. 10
+
+→ Le LLM est utilisé comme **outil de soutien**, pas comme substitut :  
+L’élève reste acteur de sa production, le professeur encadre son usage.
+
+→ L’accompagnement est pédagogique : l’enseignant guide l’élève dans la formulation de requêtes, dans la relecture critique et dans la réécriture.
+
+---
+
+## Avantages techniques du LLM local
+
+### Configuration requise
+
+L’usage d’un modèle de langage local est ici réalisé sur une machine disposant de la configuration suivante :
 
 - **Processeur** : Intel Core i7-12700K, 3.60 GHz  
-- **RAM** : 32 Go (31,8 Go utilisables)  
+- **RAM** : 32 Go  
 - **Système** : Windows 64 bits  
-- **Interface tactile** : activée
+- **Logiciel utilisé** : LM Studio (compatible avec les modèles quantifiés, sans connexion Internet)
 
-Ce type de configuration permet d'utiliser un modèle LLM (jusqu'à 13 milliards de paramètres, quantifié) via un logiciel comme **LM Studio**, sans connexion Internet.
-
----
-
-## 2. Respect de la vie privée des élèves
-
-### Un cadre légal strict
-
-Le cadre d’usage officiel rappelle qu’aucune **donnée personnelle** ou **sensible** ne doit transiter par des outils d’IA en ligne :
-
-> *« Aucune donnée confidentielle ou à caractère personnel ne doit être utilisée avec un service d’IA accessible au grand public. »*  
-> — _Cadre d’usage, p. 8_
-
-> *« Il est interdit de demander aux élèves de créer un compte sur ce type de service. »*  
-> — _Cadre d’usage, p. 12_
-
-### LLM local : aucune transmission de données
-
-L’exécution locale garantit que :
-
-- Aucune donnée élève (nom, coordonnées, parcours scolaire, etc.) **n’est envoyée sur Internet**
-- L’activité de production est **totalement autonome**
-- L’enseignant reste **le garant de l’usage éducatif**, dans un cadre sécurisé
+Ce matériel permet de faire fonctionner efficacement des modèles open source adaptés à des tâches simples de rédaction, comme Mistral 7B ou Phi-2.
 
 ---
 
-## 3. Développement des compétences et de l’autonomie
+### Fonctionnement pédagogique
 
-### Une IA au service de l’apprentissage, pas à sa place
+- L’enseignant prépare un gabarit ou des exemples de prompt
+- L’élève formule sa demande : “Peux-tu m’aider à écrire un CV pour un stage en maintenance automobile ?”
+- Le modèle génère une proposition que l’élève **modifie**, **personnalise**, puis **corrige** avec l’aide du professeur
 
-L’accompagnement à la rédaction de documents professionnels est l’occasion de :
-
-- **Développer l’expression écrite**
-- Renforcer l’**argumentation personnelle**
-- Travailler la mise en page, la présentation
-- Approfondir les **objectifs professionnels de l’élève**
-
-Le modèle IA ne doit **pas se substituer** à l’élève mais **soutenir son effort**. L’enseignant veille à ce que chaque contenu produit soit :
-
-- Revu par l’élève
-- Personnalisé à son profil
-- Co-construit pour favoriser l’appropriation
-
-### Objectif éducatif reconnu
-
-> *« L’École doit donner aux élèves les clés pour comprendre cette technologie et développer un esprit critique à son égard. »*  
-> — _Cadre d’usage, p. 4_
+Ce processus favorise l’apprentissage par l’**expérience**, la **réflexion critique** et la **réécriture**.
 
 ---
 
-## 4. Préserver la souveraineté et l’intégrité pédagogique
+## Pour quels usages concrets ?
 
-### Des services en ligne à éviter
-
-> *« Les outils actuellement disponibles sont majoritairement non souverains, non libres, opaques… »*  
-> — _Cadre d’usage, p. 4_
-
-Les IA en ligne comme ChatGPT, Copilot ou Gemini posent plusieurs problèmes :
-
-- Dépendance à des plateformes commerciales étrangères
-- Collecte non contrôlée des données
-- Contenus opaques, difficilement vérifiables
-- Obligation de créer un compte pour les élèves
-
-### Avantage de la solution locale
-
-Un LLM local (comme ceux compatibles avec LM Studio) est :
-
-- **Open source**, transparent, sans collecte de données
-- **Utilisable sans compte ni cloud**
-- Adapté à une pédagogie basée sur **la critique, l’essai, l’expérimentation**
-
----
-
-## 5. Conformité au cadre éducatif
-
-### Alignement avec les exigences ministérielles
-
-Le cadre impose que tout usage de l’IA respecte les principes suivants :
-
-> *« L’intelligence artificielle ne doit jamais porter atteinte à la relation humaine, ni aux apprentissages. »*  
-> — _Cadre d’usage, p. 8_
-
-L’utilisation du LLM local, sous supervision de l’enseignant, permet :
-
-- Une intégration **maîtrisée dans la séquence pédagogique**
-- Un **encadrement clair** des limites d’utilisation
-- Un **respect des objectifs éducatifs**, y compris l’évaluation équitable
+| Objectif pédagogique                    | Contribution du LLM local                      |
+|----------------------------------------|------------------------------------------------|
+| Rédiger un CV adapté au métier visé    | Suggestion de formulations professionnelles   |
+| Écrire une lettre de motivation        | Aide à structurer et adapter son message      |
+| Se préparer à un entretien             | Simulations de questions-réponses             |
+| Contacter une entreprise               | Rédaction de mails clairs et respectueux      |
+| Mettre à jour un CV après la PFMP      | Aide à synthétiser ce qui a été appris        |
 
 ---
 
 ## Conclusion
 
-Dans le cadre de l’accompagnement à la recherche de PFMP et à la rédaction de CV pour les lycéens professionnels, le recours à une **IA locale** présente des atouts majeurs :
+L’usage d’un LLM local, dans un cadre pédagogique et sécurisé, peut devenir un **véritable levier d’inclusion** pour les lycéens professionnels.
 
-- **Respect des données personnelles**
-- **Renforcement de l’autonomie des élèves**
-- **Intégration pédagogique encadrée**
-- **Maîtrise technique et souveraineté numérique**
-- **Conformité avec le cadre juridique et éducatif**
+Il contribue à :
 
-Ce modèle d’usage représente une approche **responsable, formative et éthique** de l’IA dans l’enseignement professionnel. Il constitue un appui pertinent pour aider les élèves à s’engager dans leur parcours d’insertion, en toute sécurité.
+- **Renforcer l’estime de soi** des élèves dans la voie pro
+- **Faciliter l’accès à la PFMP** en les outillant à chaque étape
+- **Développer des compétences numériques** critiques, utiles dans leur futur professionnel
+
+Cet usage est conforme aux règles en vigueur, **à condition d’être encadré, explicite, transparent** et intégré dans une pédagogie active.  
+L’intelligence artificielle devient alors un **allié de l’enseignant**, et non un substitut.
+
+---
