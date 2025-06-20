@@ -24,11 +24,11 @@ Dans chacun de ces usages, l’IA locale joue le rôle d’**assistance linguist
 
 ---
 
-## Infrastructure locale : maîtrise technique et confidentialité garantie
+## Infrastructure locale 
 
 ### Une configuration adaptée
 
-L’environnement local recommandé pour l'exécution d’un LLM performant repose sur :
+L’environnement local utilisé pour l'exécution d’un LLM performant repose sur :
 
 - Un processeur **Intel Core i7-12700K (12e génération)** à 3.60 GHz
 - **32 Go de mémoire RAM**, suffisants pour charger des modèles jusqu’à 13 milliards de paramètres en mode quantifié
